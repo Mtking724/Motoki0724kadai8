@@ -10,4 +10,6 @@ import Foundation
 class DataManager {
     static let shared = DataManager()
     var sliderValue: Float = 0.0
+
+    private init() {}
 }
